@@ -2,7 +2,7 @@
   "name": "alexvenga/check-brackets-in-mathematical-expressions",
   "description": "Brackets Service",
   "minimum-stability": "stable",
-  "license": "MIT License",
+  "license": "MIT",
   "authors": [
     {
       "name": "AlexVenga",
