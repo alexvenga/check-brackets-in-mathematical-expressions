@@ -1,20 +1,20 @@
 {
-  "name": "AlexVenga/BracketsService",
+  "name": "alexvenga/check-brackets-in-mathematical-expressions",
   "description": "Brackets Service",
   "minimum-stability": "stable",
   "license": "MIT License",
-
   "authors": [
     {
       "name": "AlexVenga",
       "email": "bubnov.alexey@gmail.com"
     }
   ],
-
+  "config": {
+    "php": ">=7.2"
+  },
   "autoload": {
     "psr-4": {
       "AlexVenga\\BracketsService\\": "src"
     }
   }
-
 }
