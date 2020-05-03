@@ -32,6 +32,8 @@ class BracketsChecker implements BracketsCheckerInterface
     {
         $this->brackets = $brackets;
         $this->possibleSymbols = $possibleSymbols;
+
+        return;
     }
 
 
@@ -63,6 +65,8 @@ class BracketsChecker implements BracketsCheckerInterface
         if (!empty(str_replace(array_merge(str_split(implode($this->brackets)), $this->possibleSymbols), '', $sentence))) {
             throw new InvalidSentenceSymbolsException('Sentence contains invalid symbols');
         }
+
+        return;
 
     }
 
